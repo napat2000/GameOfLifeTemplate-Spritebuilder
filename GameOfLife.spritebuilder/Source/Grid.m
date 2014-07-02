@@ -143,7 +143,6 @@ static const int GRID_COLUMNS = 10;
             } else if(currentCreature.livingNeighbors <= 1 || currentCreature.livingNeighbors >=4)
             {
                 currentCreature.isAlive = NO;
-                numAlive--;
             }
         }
     }
